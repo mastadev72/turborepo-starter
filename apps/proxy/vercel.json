@@ -1,0 +1,25 @@
+{
+  "rewrites": [
+    {
+      "source": "/api",
+      "destination": "https://project3.vercel.app/api"
+    },
+    {
+      "source": "/api/:match*",
+      "destination": "https://project3.vercel.app/api/:match*"
+    },
+    {
+      "source": "/route",
+      "destination": "https://project2.vercel.app/route"
+    },
+    {
+      "source": "/route/:match*",
+      "destination": "https://project2.vercel.app/route/:match*"
+    },
+    { "source": "/", "destination": "https://project1.vercel.app/" },
+    {
+      "source": "/:match*",
+      "destination": "https://project1.vercel.app/:match*"
+    }
+  ]
+}

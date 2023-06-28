@@ -1,0 +1,31 @@
+{
+  "name": "turborepo-starter",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:sreeramofficial/project-mercury.git",
+  "author": "Siri <sreeram.com@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "type": "turbo run type",
+    "sanity": "turbo run sanity",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "turbo": "^1.10.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "packageManager": "yarn@1.22.11"
+}
