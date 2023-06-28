@@ -1,6 +1,6 @@
-## Turborepo Vercel Microservices + Reverse Proxy Starterkit
+## Turborepo + NextJS apps + Vercel + Reverse Proxy Starterkit
 
-This Turborepo contains 4 NextJS apps - proxy, www, api and route each of which is responsible for a single route and their subroutes and can be deployed in isolation in Vercel.
+This Turborepo contains 4 NextJS apps - proxy, www, api and route, each responsible for a single route and their subroutes and can be deployed in isolation in Vercel.
 
 These are the projects and the routes they serve.
 
